@@ -1,8 +1,8 @@
 name: cakephp
 type: cakephp
 docroot: ""
-php_version: "8.3"
-webserver_type: nginx-fpm
+php_version: "8.2"
+webserver_type: apache-fpm
 xdebug_enabled: false
 additional_hostnames: []
 additional_fqdns: []
@@ -14,6 +14,8 @@ composer_version: "2"
 web_environment: []
 corepack_enable: false
 disable_upload_dirs_warning: true
+
+host_db_port: "34583"
 
 # Key features of DDEV's config.yaml:
 
